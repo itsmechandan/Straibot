@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Streamlit secrets and config (CRITICAL to exclude credentials)
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Other files
+*.pyc
+*.log
+proxy.txt
